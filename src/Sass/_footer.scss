@@ -1,0 +1,130 @@
+footer {
+  width: 100%;
+  background-color: rgb(143, 106, 170);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+
+  .footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile-sm {
+      flex-direction: column;
+      align-items: center;
+      // background-color: hotpink;
+      padding: 1rem 0;
+    }
+    @include media-lg {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      // background-color: red;
+    }
+  }
+}
+
+.foot-item {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+  //   background-color: khaki;
+
+  @include mobile-sm {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  @include media-lg {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // background-color: rgb(194, 194, 216);
+  }
+}
+
+.foot-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // background-color: honeydew;
+
+  @include mobile-sm {
+    width: 100%;
+    align-items: center;
+  }
+
+  @include media-lg {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    // background-color: green;
+    height: 7rem;
+    width: 40%;
+  }
+
+  .social-icon {
+    display: flex;
+
+    justify-content: space-between;
+    // background-color: green;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+
+    @include mobile-sm {
+      width: 60%;
+    }
+    @include media-lg {
+      margin-top: 3rem 0;
+      // background-color: red;
+      width: 80%;
+    }
+  }
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  // background-color: grey;
+
+  @include mobile-sm {
+    align-items: center;
+  }
+  @include mobile-md {
+    align-items: center;
+  }
+  @include media-lg {
+    align-items: flex-start;
+  }
+
+  a {
+    padding: 0.7rem 0;
+  }
+}
+
+.foot-invite {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+
+  .foot-btn {
+    // width: 70%;
+    background-image: linear-gradient(to right, $Lime_Green, $Bright_Cyan);
+    color: $White;
+    padding: 0.7rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+
+    &.foot-btn:hover {
+      opacity: 0.8;
+      color: rgb(242, 240, 240);
+    }
+  }
+}
