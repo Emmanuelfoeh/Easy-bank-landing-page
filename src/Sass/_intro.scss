@@ -38,6 +38,7 @@
       // background-color: blue;
 
       @include mobile-sm {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -45,7 +46,6 @@
         // background-color: orange;
         margin-top: 2rem;
       }
-
       @include media-lg {
         order: 1;
         align-items: flex-start;
@@ -64,6 +64,10 @@
           font-size: 1.5rem;
           text-align: center;
         }
+        @include mobile-md {
+          width: 85%;
+          font-size: 3rem;
+        }
 
         @include media-lg {
           font-size: 2rem;
@@ -77,9 +81,16 @@
         color: gray;
         // background-color: blue;
         @include mobile-sm {
+          padding: 0.7rem;
+          font-size: 1.3rem;
           text-align: center;
 
           // width: 90%;
+        }
+        @include mobile-md {
+          width: 80%;
+          font-size: 2.5rem;
+          padding: 0.8rem;
         }
 
         @include media-lg {
@@ -119,14 +130,20 @@
 
       // media query
       @include mobile-sm {
-        // width: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         order: 1;
         background-size: 917px;
         background-position: -171px -233px;
         height: 30rem;
+        // background-color: rgb(189, 247, 247);
       }
+      @include mobile-md {
+        width: 100%;
+        background-position: 140px -273px;
+      }
+
       @include media-lg {
         order: 2;
         background-size: 100%;
@@ -141,13 +158,13 @@
         height: 100%;
 
         @include mobile-sm {
-          top: -5rem;
+          top: -6rem;
           padding-bottom: 2rem;
           align-items: center;
           justify-content: center;
           display: flex;
           height: 90%;
-          width: 95%;
+          width: 100%;
         }
         @include max-nom {
           top: -2rem;
@@ -157,7 +174,7 @@
 
         @include media-lg {
           width: 120%;
-          top: 2rem;
+          top: -2.5rem;
           right: -2rem;
         }
 

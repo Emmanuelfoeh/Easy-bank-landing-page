@@ -1,5 +1,5 @@
 article {
-  width: 100%;
+  width: 100vw;
   // background-color: sandybrown;
   display: flex;
   justify-content: center;
@@ -9,6 +9,7 @@ article {
     width: 80%;
     display: flex;
     flex-direction: column;
+    // background-color: cadetblue;
 
     @include mobile-sm {
       width: 100%;
@@ -44,15 +45,21 @@ article {
       grid-template-columns: repeat(4, 17rem);
       // background-color: teal;
       column-gap: 1rem;
+      // width: 100%;
 
       @include mobile-sm {
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
         row-gap: 1rem;
       }
 
-      @include mobile-md {
-        grid-template-columns: 1fr 1fr;
-      }
+      // @include mobile-md {
+      //   grid-template-columns: 17rem 17rem;
+      //   // background-color: yellow;
+      //   justify-content: space-around;
+      // }
 
       @include media-lg {
         grid-template-columns: repeat(4, 17rem);
@@ -62,11 +69,12 @@ article {
 }
 
 .art-item {
-  width: 17rem;
+  width: 20rem;
   // height: 20rem;
   // background-color: tomato;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
+  font-size: 2rem;
 
   img {
     height: 10rem;
@@ -75,6 +83,7 @@ article {
   p {
     color: gray;
     line-height: 1.4rem;
+    font-size: 1.5rem;
 
     // padding: 1rem 0;
   }

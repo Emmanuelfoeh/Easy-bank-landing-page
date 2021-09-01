@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="footer">
         <div className="foot-item">
           <div className="foot-icon">
-            <div className="logo">
-              <img src="images/logo.svg" alt="logo" />
+            <div className="f-logo">
+              <img src="images/logo copy.svg" alt="logo" />
             </div>
             <div className="social-icon">
               <img src="images/icon-facebook.svg" alt="Facebook" />

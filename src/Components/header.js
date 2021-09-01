@@ -13,8 +13,8 @@ const Header = () => {
               <li className="nav-item selected ">
                 <a href="home.html">Home</a>
               </li>
-              <li className="nav-item">
-                <a href="about.html">About</a>
+              <li onClick={() => setOpen(false)} className="nav-item">
+                <a href="#about">About</a>
               </li>
               <li className="nav-item">
                 <a href="service.html">Contact</a>

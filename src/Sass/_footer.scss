@@ -1,8 +1,9 @@
 footer {
   width: 100%;
-  background-color: rgb(143, 106, 170);
+  background-color: $Dark_Blue;
   padding: 2rem 0;
   display: flex;
+  color: $White;
   justify-content: center;
 
   .footer {
@@ -15,7 +16,13 @@ footer {
       align-items: center;
       // background-color: hotpink;
       padding: 1rem 0;
+      font-size: 1.7rem;
     }
+
+    @include mobile-md {
+      font-size: 2.5rem;
+    }
+
     @include media-lg {
       width: 80%;
       display: flex;
@@ -52,6 +59,11 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   // background-color: honeydew;
+  // .f-logo {
+  //   img {
+  //     width: 100%;
+  //   }
+  // }
 
   @include mobile-sm {
     width: 100%;
@@ -83,6 +95,10 @@ footer {
       // background-color: red;
       width: 80%;
     }
+
+    img {
+      width: 10%;
+    }
   }
 }
 
@@ -104,6 +120,8 @@ footer {
 
   a {
     padding: 0.7rem 0;
+    color: $White;
+    font-size: 2rem;
   }
 }
 
@@ -112,15 +130,35 @@ footer {
   flex-direction: column;
   row-gap: 2rem;
 
+  p {
+    @include mobile-sm {
+      font-size: 1.2rem;
+    }
+
+    @include mobile-md {
+      font-size: 1.8rem;
+    }
+  }
+
   .foot-btn {
-    // width: 70%;
+    width: 60%;
     background-image: linear-gradient(to right, $Lime_Green, $Bright_Cyan);
     color: $White;
-    padding: 0.7rem;
+    padding: 0.7rem 0.3rem;
+    margin: 0.7rem auto;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2rem;
     border: none;
     border-radius: 20px;
+
+    @include mobile-sm {
+      width: 80%;
+      font-size: 1.5rem;
+    }
+    @include mobile-md {
+      width: 90%;
+      font-size: 2.5rem;
+    }
 
     &.foot-btn:hover {
       opacity: 0.8;

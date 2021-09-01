@@ -21,7 +21,7 @@ const Article = () => {
           {/* End of art item */}
           {/* Art item */}
           <div className="art-item">
-            <img src="images/image-currency.jpg" alt="Money art" />
+            <img src="images/image-restaurant.jpg" alt="Money art" />
             <div className="a-item">
               <p className="authur"> By Wilson Hutton</p>
               <h3> Treat yourself without worrying about money Our</h3>
@@ -34,7 +34,7 @@ const Article = () => {
           {/* End of art item */}
           {/* Art item */}
           <div className="art-item">
-            <img src="images/image-currency.jpg" alt="Money art" />
+            <img src="images/image-plane.jpg" alt="Money art" />
             <div className="a-item">
               <p className="authur">By Wilson Hutton</p>
               <h3> Take your Easybank card wherever you go </h3>
@@ -47,7 +47,7 @@ const Article = () => {
           {/* End of art item */}
           {/* Art item */}
           <div className="art-item">
-            <img src="images/image-currency.jpg" alt="Money art" />
+            <img src="images/image-confetti.jpg" alt="Money art" />
             <div className="a-item">
               <p className="authur">By Claire Robinson </p>
               <h3> Our invite-only Beta accounts are now live!</h3>

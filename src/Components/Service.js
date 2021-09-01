@@ -2,7 +2,7 @@ import React from "react";
 
 const Service = () => {
   return (
-    <section className="service">
+    <section className="service" id="about">
       <div className="container-sec">
         <div className="sec-intro">
           <h1> Why choose Easybank?</h1>

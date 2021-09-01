@@ -55,11 +55,15 @@
       width: 90%;
       text-align: center;
       text-align: left;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      text-align: center;
+      padding: 0.7rem;
     }
 
     @include mobile-md {
-      width: 60%;
+      width: 80%;
+      margin: 1rem auto;
+      font-size: 2.5rem;
     }
   }
 }
@@ -111,12 +115,19 @@
     }
     h3 {
       padding: 1rem 0;
+      @include mobile-md {
+        font-size: 3rem;
+      }
     }
     p {
       padding: 1rem 0;
       color: teal;
       @include mobile-sm {
         width: 80%;
+      }
+
+      @include mobile-md {
+        font-size: 2.5rem;
       }
 
       @include media-lg {
