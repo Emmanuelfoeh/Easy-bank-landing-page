@@ -48,6 +48,7 @@
       }
       @include media-lg {
         order: 1;
+        width: 50%;
         align-items: flex-start;
         // background-color: rosybrown;
       }
@@ -56,13 +57,15 @@
         width: 100%;
         padding: 1.5rem 0;
         font-size: 3rem;
-        // color: white;
-        // background-color: black;
+        color: $Dark_Blue;
+        // background-color: rgb(228, 178, 178);
 
         @include mobile-sm {
+          width: 80%;
           padding: 1rem 0;
           font-size: 1.5rem;
           text-align: center;
+          line-height: 1.3;
         }
         @include mobile-md {
           width: 85%;
@@ -70,7 +73,8 @@
         }
 
         @include media-lg {
-          font-size: 2rem;
+          width: 100%;
+          font-size: 2.7rem;
           text-align: left;
         }
       }
@@ -89,14 +93,15 @@
         }
         @include mobile-md {
           width: 80%;
-          font-size: 2.5rem;
+          font-size: 1.5rem;
           padding: 0.8rem;
         }
 
         @include media-lg {
+          font-size: 1.2rem;
           text-align: left;
           padding: 1rem 0;
-          width: 100;
+          width: 100%;
         }
       }
 
@@ -146,8 +151,9 @@
 
       @include media-lg {
         order: 2;
-        background-size: 100%;
-        background-position: 150px -150px;
+        width: 90%;
+        background-size: 150%;
+        background-position: -40px -250px;
         height: 40rem;
       }
 
@@ -173,9 +179,9 @@
         }
 
         @include media-lg {
-          width: 120%;
-          top: -2.5rem;
-          right: -2rem;
+          width: 150%;
+          top: 3.5rem;
+          right: 2.5rem;
         }
 
         @include mobile-md {
@@ -186,7 +192,7 @@
           width: 80%;
 
           @include media-lg {
-            width: 130%;
+            width: 200%;
           }
         }
       }

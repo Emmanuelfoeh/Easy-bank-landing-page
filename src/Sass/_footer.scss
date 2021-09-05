@@ -14,7 +14,6 @@ footer {
     @include mobile-sm {
       flex-direction: column;
       align-items: center;
-      // background-color: hotpink;
       padding: 1rem 0;
       font-size: 1.7rem;
     }
@@ -28,7 +27,6 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      // background-color: red;
     }
   }
 }
@@ -37,8 +35,6 @@ footer {
   width: 50%;
   display: flex;
   justify-content: space-between;
-
-  //   background-color: khaki;
 
   @include mobile-sm {
     width: 100%;
@@ -50,7 +46,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    // background-color: rgb(194, 194, 216);
   }
 }
 
@@ -58,12 +53,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // background-color: honeydew;
-  // .f-logo {
-  //   img {
-  //     width: 100%;
-  //   }
-  // }
 
   @include mobile-sm {
     width: 100%;
@@ -106,6 +95,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: left;
+  font-size: 1rem;
   // background-color: grey;
 
   @include mobile-sm {
@@ -122,6 +112,16 @@ footer {
     padding: 0.7rem 0;
     color: $White;
     font-size: 2rem;
+
+    @include mobile-sm {
+      font-size: 1rem;
+    }
+    // @include mobile-md {
+    //   align-items: center;
+    // }
+    // @include media-lg {
+    //   align-items: flex-start;
+    // }
   }
 }
 
@@ -132,16 +132,12 @@ footer {
 
   p {
     @include mobile-sm {
-      font-size: 1.2rem;
-    }
-
-    @include mobile-md {
-      font-size: 1.8rem;
+      font-size: 1rem;
     }
   }
 
   .foot-btn {
-    width: 60%;
+    width: 100%;
     background-image: linear-gradient(to right, $Lime_Green, $Bright_Cyan);
     color: $White;
     padding: 0.7rem 0.3rem;
@@ -153,11 +149,16 @@ footer {
 
     @include mobile-sm {
       width: 80%;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     @include mobile-md {
-      width: 90%;
-      font-size: 2.5rem;
+      width: 70%;
+      font-size: 1rem;
+    }
+    @include media-lg {
+      width: 100%;
+      font-size: 1rem;
+      padding: 0.7rem 0.3rem;
     }
 
     &.foot-btn:hover {

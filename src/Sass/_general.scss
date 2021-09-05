@@ -59,13 +59,13 @@ $width: 769px;
 }
 
 @mixin mobile-md {
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 768px) {
     @content;
   }
 }
 
 @mixin media-lg {
-  @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 1020px) {
     @content;
   }
 }
