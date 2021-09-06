@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Emmanuelfoeh/Easy-bank-landing-page)
-- Live Site URL: [Add live site URL here](https://easy-banking-landing-page.netlify.app/)
+- Solution URL: [Easy-bank-landing-page code](https://github.com/Emmanuelfoeh/Easy-bank-landing-page)
+- Live Site URL: [Easy-bank-landing-page demo](https://easy-banking-landing-page.netlify.app/)
 
 ### Built with
 
