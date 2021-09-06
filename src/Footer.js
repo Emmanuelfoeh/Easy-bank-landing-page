@@ -31,6 +31,21 @@ const Footer = () => {
         <div className="foot-invite">
           <button className="foot-btn">Request Invite</button>
           <p>&copy; .EasyBand.AllRightReserve</p>
+          <div class="attribution">
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a href="https://foeh-emmanuel-portfolio.netlify.app/">
+              Emmanuel Foeh
+            </a>
+            .
+          </div>
         </div>
       </div>
     </footer>

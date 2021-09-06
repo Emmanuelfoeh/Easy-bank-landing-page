@@ -76,6 +76,10 @@ footer {
     padding: 0.5rem 0;
     margin: 0.5rem 0;
 
+    &:hover {
+      color: $Lime_Green;
+    }
+
     @include mobile-sm {
       width: 60%;
     }
@@ -112,6 +116,10 @@ footer {
     padding: 0.7rem 0;
     color: $White;
     font-size: 2rem;
+
+    &:hover {
+      color: $Lime_Green;
+    }
 
     @include mobile-sm {
       font-size: 1rem;
