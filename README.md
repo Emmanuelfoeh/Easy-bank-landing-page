@@ -4,17 +4,12 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
 - [Author](#Emmanuel Foeh)
 - [Acknowledgments](#acknowledgments)
-
-## Overview
-
-The Challenge is design to
 
 ### The challenge
 
@@ -49,7 +44,7 @@ Through this challenge,i have gain much understanding into responsive design.
 ## Author
 
 - Website - [Emmanuel Foeh](https://foeh-emmanuel-portfolio.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Emmanuelfoeh](https://www.frontendmentor.io/profile/Emmanuelfoeh)
 
 ## Acknowledgments
 
